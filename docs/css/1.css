@@ -1,0 +1,32 @@
+
+html body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+.page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-page{
+    background: url(./故宫.jpg);
+    background-size: 100%;
+}
+form{
+    border: 1px solid red;
+    width: 36rem;
+    height:25rem;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    padding: 1rem;
+    background: white;
+    opacity: 80%;
+}
+li{
+    list-style: none;
+    margin: 10px 5px;
+}
